@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        
+        <link rel="stylesheet" type="text/css" href="formulário.css" media="screen">
+
+
+        <title>Seu time</title>
+    </head>
+
+    <body>  
+
+
+        <div>
+            <h1 id="titulo">Emoções🌙</h1>
+            <p id="subtitulo">Complete as informações</p>
+            <br>
+        </div>
+
+        
+        <form>
+
+            <fieldset class="grupo">
+                
+                <div class="campo">
+                    <label for="nome"><strong>Nome </strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                
+                <div class="campo">
+                    <label for="time"><strong>time</strong></label>
+                    <input type="text" name="time" id="time" required>
+                </div>
+            </fieldset> 
+
+            
+            <div class="campo">
+                <label for="data de nascimento"><strong>Data de nascimento</strong></label>
+                <input type="data de nascimento" name="Data de nascimento" id="data de nascimento" required>
+            </div>
+
+            
+            <div class="campo">
+                <label><strong>Como vc está se sentindo?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="😊Bem" checked>😊Bem
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="😑Neutro/confuso">😑Neutro/confuso
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="🌧️Mal">🌧️Mal
+                </label>
+            </div>
+
+            
+            <div class="campo">
+                <label for="Como costumam ser suas emoções?"><strong>Como costumam ser suas emoções?</strong></label>
+                <select id="Como costumam ser suas emoções?" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>🔥Intensas(sinto tudo muito forte)</option>
+                  <option>🌥️Variáveis(muda bastante)</option>
+                  <option>🍂Estáveis(consigo me equilibrar bem)</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+            
+                <div id="check">
+                    <label><strong>Oque mais descreve seu momento atual?</strong></label><br><br>
+                    <input type="checkbox" id="estou bem comigo mesmo(a)" name="estou bem comigo mesmo(a)" value="estou bem comigo mesmo(a)">
+                    <label for="tecnologia1"> estou bem comigo mesmo(a)</label>
+                    <input type="checkbox" id="Estou me entendendo aos poucos" name="Estou me entendendo aos poucos" value="Estou me entendendo aos poucos">
+                    <label for="tecnologia2"> Estou me entendendo aos poucos</label>
+                    <input type="checkbox" id="Estou meio perdido(a) emocionalmente" name="Estou meio perdido(a) emocionalmente" value="Estou meio perdido(a) emocionalmente">
+                    <label for="tecnologia3"> Estou meio perdido(a) emocionalmente</label>
+                    
+                </div>
+            </fieldset>
+
+            
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia">
+            </div>
+
+            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+    
+        </form>
+    
+    </body>
+    
+</html>
